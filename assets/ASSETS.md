@@ -17,3 +17,6 @@
 | TestPaletteBox | Tests | TEST_01 | review | 12 | своё (скрипт) | OBJ; тестовый импорт; textures/models/_tests/REPORT.md |
 | TestUVBleed | Tests | TEST_01 | review | 6 | своё (скрипт) | OBJ; тестовый импорт; textures/models/_tests/REPORT.md |
 | TestSkinBox | Tests | TEST_01 | review | 12 | своё (скрипт) | OBJ; тестовый импорт; textures/models/_tests/REPORT.md |
+| House_Small_01 | Buildings | Style test (фаза 0) | wip | 1 120 | своё (скрипт Blender) | Shell + Door_1, 32 коллайдера; Blender готов, проверка в Studio не сделана; source/style_test/REPORT.md |
+| Sedan | Vehicles | Style test (фаза 0) | wip | 1 206 | своё (скрипт Blender) | Контракт Body (#2): Body белый, TextureID пустой; UV Body зафиксирована; проверка в Studio не сделана; source/style_test/REPORT.md |
+| Rock_Desert_01 | Nature | Style test (фаза 0) | wip | 240 | своё (скрипт Blender) | Проверка в Studio не сделана; source/style_test/REPORT.md |

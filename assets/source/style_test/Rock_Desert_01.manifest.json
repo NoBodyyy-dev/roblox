@@ -1,0 +1,44 @@
+{
+ "asset": "Rock_Desert_01",
+ "category": "Nature",
+ "primary_part": "Rock",
+ "coords": "Roblox studs; pivot модели = центр основания (0,0,0); перёд −Z; оси (x,y,z)_blender → (−x,z,y)",
+ "attributes": {
+  "AssetId": "Rock_Desert_01",
+  "Category": "Nature",
+  "Tris": 240
+ },
+ "tris_visible": 240,
+ "parts": [
+  {
+   "name": "Rock",
+   "tris": 240,
+   "size": [
+    13.0422,
+    5.6282,
+    9.7855
+   ],
+   "center": [
+    -0.6735,
+    2.8141,
+    -0.1832
+   ],
+   "textured": true
+  }
+ ],
+ "attachments": [],
+ "colliders": [],
+ "studio_props": {
+  "Rock": {
+   "CanCollide": true,
+   "CollisionFidelity": "Hull"
+  }
+ },
+ "uv": {
+  "Rock": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  }
+ },
+ "palette_image_id_test": "108152632748455 (T_Palette_Main, личный тестовый аккаунт, TEST_01)"
+}
