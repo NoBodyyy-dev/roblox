@@ -1,24 +1,24 @@
 {
- "note": "MeshId импорта StyleTest_All.obj 2026-10-30, личный аккаунт 7040182249, плейс Place1 (локальный, не сохранён)",
+ "note": "MeshId импорта StyleTest_All.obj (итерация 2) 2026-10-31, личный аккаунт 7040182249, локальный плейс",
  "meshes": {
   "Rock_Desert_01": {
-   "Rock": "rbxassetid://71785776109626"
+   "Rock": "rbxassetid://128531350227376"
   },
   "Sedan": {
-   "Wheel_FR": "rbxassetid://76515145221058",
-   "Hood": "rbxassetid://84395097029501",
-   "Wheel_RR": "rbxassetid://134147303950724",
-   "Wheel_RL": "rbxassetid://77424843992621",
-   "Trim": "rbxassetid://130978627775425",
+   "Wheel_FR": "rbxassetid://138126667328854",
+   "Hood": "rbxassetid://131787246841319",
+   "Wheel_RR": "rbxassetid://132477708362356",
+   "Wheel_RL": "rbxassetid://117950740296940",
+   "Trim": "rbxassetid://117874224967757",
    "Body": "rbxassetid://122129071687271",
-   "Trunk": "rbxassetid://139422210432825",
-   "Wheel_FL": "rbxassetid://101248543121830",
-   "Glass": "rbxassetid://117929789268074",
+   "Trunk": "rbxassetid://116225396009464",
+   "Wheel_FL": "rbxassetid://121330840678233",
+   "Glass": "rbxassetid://124861116521411",
    "Steering": "rbxassetid://133848991014926"
   },
   "House_Small_01": {
-   "Door_1": "rbxassetid://125625670731790",
-   "Shell": "rbxassetid://123437761175229"
+   "Door_1": "rbxassetid://121519492281266",
+   "Shell": "rbxassetid://131127786620625"
   }
  }
 }
