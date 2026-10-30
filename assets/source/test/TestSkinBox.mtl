@@ -1,0 +1,7 @@
+newmtl T_VehicleSkin_Test
+Kd 1 1 1
+Ka 0 0 0
+Ks 0 0 0
+d 1
+illum 1
+map_Kd ../../textures/models/T_VehicleSkin_Test.png

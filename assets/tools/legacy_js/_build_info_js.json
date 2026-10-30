@@ -1,0 +1,24 @@
+{
+ "generator": "browser JS (палитра: assets/tools/palette_lib.js, образцы: assets/tools/gen_samples.js) — не Python/Pillow",
+ "python": null,
+ "pillow": null,
+ "numpy": null,
+ "SEED": 20261030,
+ "note": "_preview.png рисуется canvas-текстом и между машинами может отличаться",
+ "sha256": {
+  "T_Palette_Main.png": "975ec1c55d17e2bbe415b23cd5a4ca120ed746752c1ae3807693b1b6c3e1ce86",
+  "T_Palette_Worn.png": "a72120a6ce368116a0c578a3a0268db5085e4243abcda574113cd35dae85786c",
+  "T_Palette_WeaponSkin_Gold.png": "671c512b4901c0d6a2f04537e45ea5f84e2aff1a67a843e5dfa189bcf2fe29de",
+  "T_Palette_WeaponSkin_Arctic.png": "b352f9aa1d462372a0c1f922b1fd0c1b12400853fca66f486c553261f3fb4f2e",
+  "T_Palette_Armor_State2.png": "070e5ad6fed1ba5f6872b39e810b99fbfd5cc803ac13017b29085f913b16a9fc",
+  "T_Palette_Armor_State3.png": "9438a54d555d7617b22e6ab3aeed407294da51a04c45e83b4dbf52409a515f7b",
+  "T_VehicleSkin_Test.png": "1ae73e24f96b3b8f2ab359068b87e8e9a625f5aba8b00233e28d07428b4dbbcc",
+  "T_Sticker_Flames_01.png": "d5bbf19d93815691d9911a69c055e0904f9862d86a3824216623055696d7d89c",
+  "T_Plate_01.png": "b10d2f42d77f507b947280f3e0cba28796c6972954cc8da8f25047c28af9cdf2",
+  "T_Glass_Cracked_01.png": "203f5dc97a21aa9cc6b6bf4f4818e05d5fd58fe787e1a5f48b802751ddd2bbc0",
+  "_preview.png": "596bad224a16e1f303c6a1ba0f659e0d1a56c335e801d949be91c5843e13b2f7",
+  "assets/palette/palette.json": "79bc7cfc08ecaa6f6082bda149f972ea549a3b34860be20c10d3123779903e01",
+  "assets/source/test/TestPaletteBox.obj": "b6acc0731865cd56c6ad30c5bb20de35b31c05483226642f5a1eca9fa6ee7079",
+  "assets/source/test/TestUVBleed.obj": "dc04a17345147cfa63d7a279ff3f613a64fbdb79358a3d1f7da0108ce7dbeda1"
+ }
+}
