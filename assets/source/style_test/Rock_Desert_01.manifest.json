@@ -26,6 +26,11 @@
    "textured": true
   }
  ],
+ "model_pivot": [
+  -0.0,
+  0.0,
+  0.0
+ ],
  "attachments": [],
  "colliders": [],
  "studio_props": {

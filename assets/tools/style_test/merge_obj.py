@@ -6,7 +6,7 @@ python assets/tools/style_test/merge_obj.py
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parents[2] / 'source' / 'style_test'
-NAMES = ['House_Small_01', 'Sedan', 'Rock_Desert_01']
+NAMES = ['House_Small_01', 'Sedan', 'Rock_Desert_01', 'Sedan_Wheel_Flat']
 
 
 def main():

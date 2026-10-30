@@ -319,6 +319,33 @@ def materials():
 
 # ---------------------------------------------------------------- седан
 
+WHEEL_R = 1.2
+FLAT_AXLE = 0.7  # ось спущенного колеса
+
+
+def wheel(nm, x, y, flat=False):
+    cz = FLAT_AXLE if flat else WHEEL_R
+    w = Part(nm)
+    w.cyl((x, y, cz), WHEEL_R, 0.85, 10, lambda n, _c: 'neutral_05' if abs(n.x) > 0.9 else 'neutral_02')
+    w.cyl((x, y, cz), 0.62, 0.92, 10, 'rust_05' if flat else 'metal_06')
+    if flat:  # шина смята снизу и раздута в стороны, диск почти на земле
+        for v in w.bm.verts:
+            if Vector((v.co.y - y, v.co.z - cz)).length > 0.9 and v.co.z < cz:
+                v.co.z = max(cz - (cz - v.co.z) * 0.62, 0.02)
+                v.co.x += 0.1 if v.co.x > x else -0.1
+    return w
+
+
+def sedan_wheel_flat():
+    """Вариант колеса седана: спущенное. Код ставит его вместо Wheel_XX и опускает ось на AxleDrop."""
+    return {'name': 'Sedan_Wheel_Flat', 'category': 'Vehicles', 'primary': 'Wheel_Flat',
+            'parts': [wheel('Wheel_Flat', 0, 0, flat=True)],
+            'pivots': {'Wheel_Flat': Vector((0, 0, FLAT_AXLE))}, 'model_pivot': Vector((0, 0, FLAT_AXLE)),
+            'attachments': {}, 'colliders': [],
+            'attributes': {'Vehicle': 'Sedan', 'AxleDrop': round(WHEEL_R - FLAT_AXLE, 3)},
+            'studio': {'*': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False}}}
+
+
 def sedan():
     # профиль кузова вдоль Y (перёд = −Y): ключевые точки полуширины, низа и верха палубы
     def lerp(keys):
@@ -544,21 +571,12 @@ def sedan():
     steering.prism(ring, rot.to_3x3() @ Vector((0, 0, 0.08)), 'neutral_02')
     steering.box(st_c + rot.to_3x3() @ Vector((0, 0, -0.25)), (0.18, 0.18, 0.5), 'neutral_03', rot)
 
-    wheels, wheel_pivots = [], {}
+    # все четыре колеса целые; спущенное — отдельный ассет Sedan_Wheel_Flat (ревью PR #4)
+    wheels, wheel_pivots = [], {'Steering': st_c}
     for nm, x, y in (('Wheel_FL', 2.85, -4.7), ('Wheel_FR', -2.85, -4.7), ('Wheel_RL', 2.85, 4.7),
                      ('Wheel_RR', -2.85, 4.7)):
-        w = Part(nm)
-        flat = nm == 'Wheel_FL'
-        cz = 0.7 if flat else 1.2
-        w.cyl((x, y, cz), 1.2, 0.85, 10, lambda n, _c: 'neutral_05' if abs(n.x) > 0.9 else 'neutral_02')
-        w.cyl((x, y, cz), 0.62, 0.92, 10, 'rust_05' if flat else 'metal_06')
-        if flat:  # спущенное колесо: шина смята снизу и раздута в стороны, диск почти на земле
-            for v in w.bm.verts:
-                if Vector((v.co.y - y, v.co.z - cz)).length > 0.9 and v.co.z < cz:
-                    v.co.z = max(cz - (cz - v.co.z) * 0.62, 0.02)
-                    v.co.x += 0.1 if v.co.x > x else -0.1
-            wheel_pivots[nm] = Vector((x, y, cz))  # pivot на оси, а не в центре bbox
-        wheels.append(w)
+        wheels.append(wheel(nm, x, y))
+        wheel_pivots[nm] = Vector((x, y, WHEEL_R))  # pivot на оси
 
     collider = Part('Collider', textured=False)
     cb = collider.bm
@@ -966,8 +984,11 @@ def build(asset, mats, coll):
     manifest = {
         'asset': asset['name'], 'category': asset['category'], 'primary_part': asset['primary'],
         'coords': 'Roblox studs; pivot модели = центр основания (0,0,0); перёд −Z; оси (x,y,z)_blender → (−x,z,y)',
-        'attributes': {'AssetId': asset['name'], 'Category': asset['category'], 'Tris': visible},
+        'attributes': {'AssetId': asset['name'], 'Category': asset['category'], 'Tris': visible,
+                       **asset.get('attributes', {})},
         'tris_visible': visible, 'parts': report['parts'],
+        # pivot модели (= pivot PrimaryPart): центр основания, у варианта колеса — ось
+        'model_pivot': to_rbx(asset.get('model_pivot', Vector((0, 0, 0)))),
         'attachments': [{'name': k, 'parent': par, 'position': to_rbx(v)}
                         for k, (par, v) in asset['attachments'].items()],
         'colliders': [{'center': to_rbx(c), 'size': size_rbx(s),
@@ -1052,7 +1073,7 @@ def render_previews(groups, mats):
     ground = bpy.context.active_object
     ground.data.materials.append(gm)
     offsets = {'House_Small_01': Vector((0, 0, 0)), 'Sedan': Vector((19, -6, 0)),
-               'Rock_Desert_01': Vector((-19, -4, 0))}
+               'Rock_Desert_01': Vector((-19, -4, 0)), 'Sedan_Wheel_Flat': Vector((25, -16, 0))}
     for name, objs in groups.items():
         for o in objs:
             o.location = offsets[name]
@@ -1119,7 +1140,7 @@ def main():
     OUT.mkdir(parents=True, exist_ok=True)
     mats = materials()
     groups, summary = {}, {}
-    for fn in (house, sedan, rock):
+    for fn in (house, sedan, rock, sedan_wheel_flat):
         asset = fn()
         coll = bpy.data.collections.new(asset['name'])
         bpy.context.scene.collection.children.link(coll)
@@ -1136,6 +1157,9 @@ def main():
                       ensure_ascii=False)
     (Path(__file__).parent / 'assemble_style_test.luau').write_text(
         tpl.replace('--@@MANIFESTS@@', data), encoding='utf-8')
+    vtpl = (Path(__file__).parent / 'verify_template.luau').read_text(encoding='utf-8')
+    (Path(__file__).parent / 'verify_style_test.luau').write_text(
+        vtpl.replace('--@@MANIFESTS@@', data), encoding='utf-8')
     body = next(o for o in groups['Sedan'] if o.name == 'Body')
     uv_layout(body, OUT / 'Sedan_Body_UV.png')
     bpy.ops.wm.save_as_mainfile(filepath=str(OUT / 'StyleTest.blend'), compress=True)

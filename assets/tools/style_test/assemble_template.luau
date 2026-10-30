@@ -8,6 +8,7 @@
 -- Результат: Workspace.StyleTest.<Asset> (готовая Model) — её сохраняют в assets/rbxm/<Category>/<Asset>.rbxm.
 
 local HttpService = game:GetService("HttpService")
+local AssetService = game:GetService("AssetService")
 
 local MANIFESTS = HttpService:JSONDecode([==[--@@MANIFESTS@@]==])
 local PALETTE_TEXTURE = "rbxassetid://108152632748455" -- T_Palette_Main, личный тестовый аккаунт (TEST_01)
@@ -79,9 +80,7 @@ local function apply(part: BasePart, props: any)
 		elseif k == "Material" then
 			part.Material = (Enum.Material :: any)[v]
 		elseif k == "CollisionFidelity" then
-			if part:IsA("MeshPart") then -- у обычного Part такого свойства нет
-				part.CollisionFidelity = (Enum.CollisionFidelity :: any)[v]
-			end
+			continue -- задаётся при создании меша (см. ApplyMesh); у обычного Part свойства нет
 		else
 			(part :: any)[k] = v
 		end
@@ -130,13 +129,26 @@ for i, asset in MANIFESTS do
 			if math.abs(ratio - 1) > 0.02 then
 				table.insert(scaleNote, string.format("%s ×%.3f", p.name, ratio))
 			end
+			-- CollisionFidelity из скрипта присваиванием не меняется (Studio молча оставляет Default):
+			-- берём меш через AssetService с нужной fidelity и переносим его в часть через ApplyMesh
+			local fidelity = (asset.studio_props[p.name] or {}).CollisionFidelity or defaults.CollisionFidelity or "Box"
+			local okMesh, fresh = pcall(function()
+				return AssetService:CreateMeshPartAsync(Content.fromUri(mp.MeshId), {
+					CollisionFidelity = (Enum.CollisionFidelity :: any)[fidelity],
+					RenderFidelity = Enum.RenderFidelity.Automatic,
+				})
+			end)
+			if okMesh and fresh then
+				mp:ApplyMesh(fresh)
+				fresh:Destroy()
+			else
+				table.insert(log, asset.asset .. ": CollisionFidelity не задан у " .. p.name .. ": " .. tostring(fresh))
+			end
 			mp.Size = want
-			mp.RenderFidelity = Enum.RenderFidelity.Automatic
 			mp.DoubleSided = false
 			mp.TextureID = p.textured and PALETTE_TEXTURE or ""
 			mp.Color = Color3.new(1, 1, 1)
 			mp.Material = Enum.Material.SmoothPlastic
-			mp.CollisionFidelity = Enum.CollisionFidelity.Box
 			for _, d in mp:GetChildren() do
 				d:Destroy() -- SurfaceAppearance/скрипты из импорта не нужны
 			end
@@ -144,9 +156,8 @@ for i, asset in MANIFESTS do
 		end
 		part.Anchored = true
 		part.CFrame = origin * CFrame.new(v3(p.center)) * fix
-		if p.pivot_offset then
-			part.PivotOffset = fix:Inverse() * CFrame.new(v3(p.pivot_offset))
-		end
+		-- импортёр ставит PivotOffset в начало координат исходной модели: сбрасываем на центр части
+		part.PivotOffset = p.pivot_offset and fix:Inverse() * CFrame.new(v3(p.pivot_offset)) or CFrame.identity
 		apply(part, defaults)
 		apply(part, asset.studio_props[p.name] or {})
 		part.Parent = model
@@ -171,12 +182,17 @@ for i, asset in MANIFESTS do
 		if parent then
 			local att = Instance.new("Attachment")
 			att.Name = a.name
+			att.Parent = parent -- сначала родитель: без него WorldCFrame пишется как локальный CFrame
 			att.WorldCFrame = origin * CFrame.new(v3(a.position))
-			att.Parent = parent
 		end
 	end
-	model.PrimaryPart = made[asset.primary_part]
-	model.WorldPivot = origin
+	-- при заданном PrimaryPart pivot модели = pivot PrimaryPart: ставим его в точку pivot модели из манифеста
+	-- (центр основания; у варианта колеса — ось)
+	local primary = made[asset.primary_part]
+	local modelPivot = origin * CFrame.new(v3(asset.model_pivot or { 0, 0, 0 }))
+	primary.PivotOffset = primary.CFrame:ToObjectSpace(modelPivot)
+	model.PrimaryPart = primary
+	model.WorldPivot = modelPivot
 	for k, v in asset.attributes do
 		model:SetAttribute(k, v)
 	end

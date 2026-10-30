@@ -1,0 +1,57 @@
+{
+ "asset": "Sedan_Wheel_Flat",
+ "category": "Vehicles",
+ "primary_part": "Wheel_Flat",
+ "coords": "Roblox studs; pivot модели = центр основания (0,0,0); перёд −Z; оси (x,y,z)_blender → (−x,z,y)",
+ "attributes": {
+  "AssetId": "Sedan_Wheel_Flat",
+  "Category": "Vehicles",
+  "Tris": 72,
+  "Vehicle": "Sedan",
+  "AxleDrop": 0.5
+ },
+ "tris_visible": 72,
+ "parts": [
+  {
+   "name": "Wheel_Flat",
+   "tris": 72,
+   "size": [
+    1.05,
+    1.88,
+    2.2825
+   ],
+   "center": [
+    -0.0,
+    0.96,
+    0.0
+   ],
+   "textured": true,
+   "pivot_offset": [
+    -0.0,
+    -0.26,
+    0.0
+   ]
+  }
+ ],
+ "model_pivot": [
+  -0.0,
+  0.7,
+  0.0
+ ],
+ "attachments": [],
+ "colliders": [],
+ "studio_props": {
+  "*": {
+   "CanCollide": false,
+   "CanTouch": false,
+   "CanQuery": false
+  }
+ },
+ "uv": {
+  "Wheel_Flat": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  }
+ },
+ "palette_image_id_test": "108152632748455 (T_Palette_Main, личный тестовый аккаунт, TEST_01)"
+}

@@ -108,25 +108,30 @@
     3.3075,
     -1.3913
    ],
-   "textured": true
+   "textured": true,
+   "pivot_offset": [
+    -0.0,
+    -0.0075,
+    0.0413
+   ]
   },
   {
    "name": "Wheel_FL",
    "tris": 72,
    "size": [
-    1.05,
-    1.88,
+    0.92,
+    2.4,
     2.2825
    ],
    "center": [
     -2.85,
-    0.96,
+    1.2,
     -4.7
    ],
    "textured": true,
    "pivot_offset": [
     -0.0,
-    -0.26,
+    0.0,
     0.0
    ]
   },
@@ -143,7 +148,12 @@
     1.2,
     -4.7
    ],
-   "textured": true
+   "textured": true,
+   "pivot_offset": [
+    -0.0,
+    0.0,
+    0.0
+   ]
   },
   {
    "name": "Wheel_RL",
@@ -158,7 +168,12 @@
     1.2,
     4.7
    ],
-   "textured": true
+   "textured": true,
+   "pivot_offset": [
+    -0.0,
+    0.0,
+    0.0
+   ]
   },
   {
    "name": "Wheel_RR",
@@ -173,7 +188,12 @@
     1.2,
     4.7
    ],
-   "textured": true
+   "textured": true,
+   "pivot_offset": [
+    -0.0,
+    0.0,
+    0.0
+   ]
   },
   {
    "name": "Collider",
@@ -190,6 +210,11 @@
    ],
    "textured": false
   }
+ ],
+ "model_pivot": [
+  -0.0,
+  0.0,
+  0.0
  ],
  "attachments": [
   {
