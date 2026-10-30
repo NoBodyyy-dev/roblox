@@ -1,0 +1,1185 @@
+{
+  "context": "Roblox Studio on this Windows PC; mobile viewport simulation, not mobile hardware",
+  "device": "iPhone 17 Pro",
+  "orientation": "LandscapeLeft",
+  "activeWindowSamples": [
+    {
+      "streamRequestSeconds": 0.06308059999719262,
+      "meanFrameMs": 16.667204154003795,
+      "memoryMb": 2792.33203125,
+      "frameCount": 243,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 33,
+                "Triangles": 696
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 39,
+            "Triangles": 702
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 11,
+                "Triangles": 552
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            },
+            {
+              "Name": "Shadows",
+              "Sizes": {
+                "Drawcalls": 80,
+                "Triangles": 14789
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 97,
+            "Triangles": 15347
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 15,
+                "Triangles": 324
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 6,
+                "Triangles": 6
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 22,
+            "Triangles": 331
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 128,
+                "Triangles": 1550
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            },
+            {
+              "Name": "Shadows",
+              "Sizes": {
+                "Drawcalls": 186,
+                "Triangles": 22758
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 320,
+            "Triangles": 24314
+          }
+        }
+      ],
+      "name": "GasStation",
+      "viewport": "750, 381",
+      "clientMeshParts": 1052,
+      "maxFrameMs": 18.461499363183975,
+      "p95FrameMs": 17.78090000152588
+    },
+    {
+      "streamRequestSeconds": 0.0704482999863103,
+      "meanFrameMs": 16.66648309554689,
+      "memoryMb": 2793.30859375,
+      "frameCount": 242,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 100,
+                "Triangles": 1316
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 6,
+                "Triangles": 6
+              }
+            },
+            {
+              "Name": "Shadows",
+              "Sizes": {
+                "Drawcalls": 930,
+                "Triangles": 11346
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 1037,
+            "Triangles": 12669
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 217,
+                "Triangles": 2468
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            },
+            {
+              "Name": "Shadows",
+              "Sizes": {
+                "Drawcalls": 1182,
+                "Triangles": 34476
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 1405,
+            "Triangles": 36950
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 263,
+                "Triangles": 3494
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 269,
+            "Triangles": 3500
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 9,
+                "Triangles": 600
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 15,
+            "Triangles": 606
+          }
+        }
+      ],
+      "name": "Hospital",
+      "viewport": "750, 381",
+      "clientMeshParts": 680,
+      "maxFrameMs": 23.96959997713566,
+      "p95FrameMs": 17.800400033593178
+    },
+    {
+      "streamRequestSeconds": 0.06430309999268502,
+      "meanFrameMs": 18.000034854464634,
+      "memoryMb": 2801.17578125,
+      "frameCount": 224,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 74,
+                "Triangles": 1682
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 44,
+                "Triangles": 14598
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 124,
+            "Triangles": 16286
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 144,
+                "Triangles": 2340
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 28,
+                "Triangles": 7840
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            },
+            {
+              "Name": "Shadows",
+              "Sizes": {
+                "Drawcalls": 21,
+                "Triangles": 20992
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 199,
+            "Triangles": 31178
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 273,
+                "Triangles": 4036
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 279,
+            "Triangles": 4042
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 138,
+                "Triangles": 1570
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 13,
+                "Triangles": 5002
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 6,
+                "Triangles": 6
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 158,
+            "Triangles": 6579
+          }
+        }
+      ],
+      "name": "Factory",
+      "viewport": "750, 381",
+      "clientMeshParts": 1334,
+      "maxFrameMs": 205.72160184383392,
+      "p95FrameMs": 23.366199806332588
+    },
+    {
+      "streamRequestSeconds": 0.052310300001408905,
+      "meanFrameMs": 16.663754547461252,
+      "memoryMb": 2807.64453125,
+      "frameCount": 242,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 227,
+                "Triangles": 3432
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 331,
+                "Triangles": 109752
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 564,
+            "Triangles": 113190
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 230,
+                "Triangles": 3204
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 285,
+                "Triangles": 103844
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 6,
+                "Triangles": 6
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 522,
+            "Triangles": 107055
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 224,
+                "Triangles": 3888
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 167,
+                "Triangles": 71934
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 6,
+                "Triangles": 6
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 398,
+            "Triangles": 75829
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 173,
+                "Triangles": 2448
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 296,
+                "Triangles": 111712
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 5
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 475,
+            "Triangles": 114166
+          }
+        }
+      ],
+      "name": "Ravine",
+      "viewport": "750, 381",
+      "clientMeshParts": 1544,
+      "maxFrameMs": 18.738700076937675,
+      "p95FrameMs": 18.021700903773308
+    }
+  ],
+  "inactiveWindowSamplesExcluded": [
+    {
+      "streamRequestSeconds": 0.06577540002763271,
+      "meanFrameMs": 66.65544126366005,
+      "memoryMb": 2736.6796875,
+      "frameCount": 61,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 28,
+                "Triangles": 468
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 33,
+            "Triangles": 473
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 5,
+                "Triangles": 384
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 10,
+            "Triangles": 389
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 13,
+                "Triangles": 276
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 18,
+            "Triangles": 281
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 56,
+                "Triangles": 674
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 61,
+            "Triangles": 679
+          }
+        }
+      ],
+      "name": "GasStation",
+      "viewport": "750, 381",
+      "clientMeshParts": 1052,
+      "maxFrameMs": 68.23530048131943,
+      "p95FrameMs": 68.13649833202362
+    },
+    {
+      "streamRequestSeconds": 0.07762150000780821,
+      "meanFrameMs": 66.65336800118287,
+      "memoryMb": 2768.87109375,
+      "frameCount": 60,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 95,
+                "Triangles": 1160
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 100,
+            "Triangles": 1165
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 215,
+                "Triangles": 2444
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 220,
+            "Triangles": 2449
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 256,
+                "Triangles": 3098
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 261,
+            "Triangles": 3103
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 384
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 9,
+            "Triangles": 389
+          }
+        }
+      ],
+      "name": "Hospital",
+      "viewport": "750, 381",
+      "clientMeshParts": 620,
+      "maxFrameMs": 68.35660338401794,
+      "p95FrameMs": 67.93110072612762
+    },
+    {
+      "streamRequestSeconds": 0.06448110000928864,
+      "meanFrameMs": 66.95153390367825,
+      "memoryMb": 2783.05078125,
+      "frameCount": 60,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 22,
+                "Triangles": 338
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 27,
+            "Triangles": 343
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 408
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 9,
+            "Triangles": 413
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 90,
+                "Triangles": 1202
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 95,
+            "Triangles": 1207
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 136,
+                "Triangles": 1546
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 141,
+            "Triangles": 1551
+          }
+        }
+      ],
+      "name": "Factory",
+      "viewport": "750, 381",
+      "clientMeshParts": 1714,
+      "maxFrameMs": 83.53059738874435,
+      "p95FrameMs": 68.37280094623566
+    },
+    {
+      "streamRequestSeconds": 0.06776050000917166,
+      "meanFrameMs": 66.68069677763297,
+      "memoryMb": 2796.97265625,
+      "frameCount": 61,
+      "views": [
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 9,
+                "Triangles": 252
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 38,
+                "Triangles": 19814
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 52,
+            "Triangles": 20071
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 93,
+                "Triangles": 1308
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 40,
+                "Triangles": 23476
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 138,
+            "Triangles": 24789
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 23,
+                "Triangles": 360
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 32,
+                "Triangles": 19536
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 60,
+            "Triangles": 19901
+          }
+        },
+        {
+          "Children": [
+            {
+              "Name": "Opaque",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 24
+              }
+            },
+            {
+              "Name": "Transparent",
+              "Sizes": {
+                "Drawcalls": 1,
+                "Triangles": 1
+              }
+            },
+            {
+              "Name": "Terrain",
+              "Sizes": {
+                "Drawcalls": 35,
+                "Triangles": 19636
+              }
+            },
+            {
+              "Name": "Cloud",
+              "Sizes": {
+                "Drawcalls": 4,
+                "Triangles": 4
+              }
+            }
+          ],
+          "Name": "TriangleComposition",
+          "Sizes": {
+            "Drawcalls": 41,
+            "Triangles": 19665
+          }
+        }
+      ],
+      "name": "Ravine",
+      "viewport": "750, 381",
+      "clientMeshParts": 1544,
+      "maxFrameMs": 68.31199675798416,
+      "p95FrameMs": 68.05689632892609
+    }
+  ]
+}

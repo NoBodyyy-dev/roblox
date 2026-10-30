@@ -1,0 +1,175 @@
+{
+  "date": "2026-10-31",
+  "method": "Client Humanoid MoveTo, actual position checked at every stair-flight endpoint; entry from outside; teleport only between separate houses",
+  "residential": [
+    {
+      "stairs": true,
+      "name": "Explore_02",
+      "entry": true,
+      "final": "-307.45428466796875, 152.99647521972656, 10216.1669921875",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_05",
+      "entry": true,
+      "final": "345.35137939453125, 162.91758728027344, 4060.05517578125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_06",
+      "entry": true,
+      "final": "-2064.224609375, 161.65367126464844, 812.1939086914062",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_07",
+      "entry": true,
+      "final": "2086.601318359375, 143.0746612548828, 2659.25341796875",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_08",
+      "entry": true,
+      "final": "801.2827758789062, 141.2376708984375, 8555.22265625",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_09",
+      "entry": true,
+      "final": "-2143.5859375, 132.2761993408203, 11907.28515625",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_10",
+      "entry": true,
+      "final": "-1023.4690551757812, 163.6537628173828, 12335.7314453125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_11",
+      "entry": true,
+      "final": "-1262.2044677734375, 133.1520538330078, 3668.915771484375",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_12",
+      "entry": true,
+      "final": "1317.919677734375, 152.05438232421875, 1411.3887939453125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_13",
+      "entry": true,
+      "final": "2646.538330078125, 133.15390014648438, 839.72998046875",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_14",
+      "entry": true,
+      "final": "1368.4896240234375, 152.13966369628906, 10822.0078125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_15",
+      "entry": true,
+      "final": "2426.442626953125, 134.84161376953125, 12355.166015625",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_16",
+      "entry": true,
+      "final": "1059.530517578125, 152.0557403564453, 9219.21875",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_17",
+      "entry": true,
+      "final": "-2069.002197265625, 133.2511749267578, 10232.0361328125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_18",
+      "entry": true,
+      "final": "2670.32470703125, 162.9176788330078, 2972.22412109375",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_19",
+      "entry": true,
+      "final": "-2360.84912109375, 161.69984436035156, 3181.90234375",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_20",
+      "entry": true,
+      "final": "2191.190673828125, 152.99685668945312, 9889.4560546875",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_21",
+      "entry": true,
+      "final": "898.6099243164062, 132.2769012451172, 3818.345947265625",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_22",
+      "entry": true,
+      "final": "1126.9859619140625, 133.1483154296875, 4388.5126953125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_23",
+      "entry": true,
+      "final": "-2292.732666015625, 132.900390625, 5121.58251953125",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_24",
+      "entry": true,
+      "final": "-2298.978759765625, 132.83624267578125, 8124.076171875",
+      "failedAt": 0
+    },
+    {
+      "stairs": true,
+      "name": "Explore_25",
+      "entry": true,
+      "final": "2198.700439453125, 143.06948852539062, 2976.390869140625",
+      "failedAt": 0
+    }
+  ],
+  "factoryEntrance": {
+    "passed": true,
+    "targetDistanceStuds": 0.906
+  },
+  "coastDescent": {
+    "passed": true,
+    "waypoints": 24,
+    "fromZ": 12200,
+    "toZ": 14460,
+    "health": 100
+  },
+  "hospital": {
+    "passed": true,
+    "note": "Earlier real walk test to third floor, unchanged during audit"
+  }
+}
