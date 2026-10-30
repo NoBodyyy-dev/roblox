@@ -1,0 +1,20 @@
+# Замени REPLACE-* на реальные GitHub-логины (TEAM.md §3).
+# Последнее совпавшее правило важнее предыдущих.
+
+*                                   @REPLACE-DEVELOPER
+
+# Геймдизайнер
+/Gameplay_Design.md                 @REPLACE-DESIGNER
+/design/                            @REPLACE-DESIGNER
+/DESIGN_PROMPT.md                   @REPLACE-DESIGNER
+/src/shared/localization/           @REPLACE-DESIGNER
+# значения — дизайнер, структура — разработчик
+/src/shared/config/                 @REPLACE-DESIGNER @REPLACE-DEVELOPER
+
+# Художник
+/assets/                            @REPLACE-ARTIST
+/ASSETS_PROMPT.md                   @REPLACE-ARTIST @REPLACE-DEVELOPER
+
+# Общие документы
+/TEAM.md                            @REPLACE-DESIGNER @REPLACE-ARTIST @REPLACE-DEVELOPER
+/tasks/                             @REPLACE-DESIGNER @REPLACE-ARTIST @REPLACE-DEVELOPER
