@@ -1,7 +1,7 @@
 # Blender 5.2.3 LTS
 # www.blender.org
 mtllib Rock_Desert_01.mtl
-o Rock
+g Rock_Rock
 v -0.184423 0.000000 -0.506699
 v 3.810267 1.366465 0.440922
 v -0.294505 0.674162 4.016775

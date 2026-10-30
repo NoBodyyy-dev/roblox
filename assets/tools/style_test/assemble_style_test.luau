@@ -79,7 +79,9 @@ local function apply(part: BasePart, props: any)
 		elseif k == "Material" then
 			part.Material = (Enum.Material :: any)[v]
 		elseif k == "CollisionFidelity" then
-			(part :: any).CollisionFidelity = (Enum.CollisionFidelity :: any)[v]
+			if part:IsA("MeshPart") then -- у обычного Part такого свойства нет
+				part.CollisionFidelity = (Enum.CollisionFidelity :: any)[v]
+			end
 		else
 			(part :: any)[k] = v
 		end

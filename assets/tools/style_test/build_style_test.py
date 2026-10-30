@@ -664,7 +664,7 @@ def export(objs, name):
     bpy.ops.wm.obj_export(filepath=str(OUT / f'{name}.obj'), export_selected_objects=True,
                           forward_axis='NEGATIVE_Z', up_axis='Y', export_triangulated_mesh=True,
                           export_normals=True, export_uv=True, export_materials=True, path_mode='STRIP',
-                          export_smooth_groups=False)
+                          export_smooth_groups=False, export_object_groups=True)
     bpy.ops.export_scene.fbx(filepath=str(OUT / f'{name}.fbx'), use_selection=True, global_scale=0.01,
                              apply_unit_scale=True, apply_scale_options='FBX_SCALE_ALL', axis_forward='-Z',
                              axis_up='Y', object_types={'MESH'}, mesh_smooth_type='FACE', use_triangles=True,
