@@ -6,22 +6,22 @@
  "attributes": {
   "AssetId": "Rock_Desert_01",
   "Category": "Nature",
-  "Tris": 240
+  "Tris": 500
  },
- "tris_visible": 240,
+ "tris_visible": 500,
  "parts": [
   {
    "name": "Rock",
-   "tris": 240,
+   "tris": 500,
    "size": [
-    13.0422,
-    5.6282,
-    9.7855
+    15.0527,
+    5.9047,
+    12.0397
    ],
    "center": [
-    -0.6735,
-    2.8141,
-    -0.1832
+    -0.1076,
+    2.9523,
+    0.6991
    ],
    "textured": true
   }

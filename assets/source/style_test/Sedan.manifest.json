@@ -6,9 +6,9 @@
  "attributes": {
   "AssetId": "Sedan",
   "Category": "Vehicles",
-  "Tris": 1206
+  "Tris": 1600
  },
- "tris_visible": 1206,
+ "tris_visible": 1600,
  "parts": [
   {
    "name": "Body",
@@ -27,7 +27,7 @@
   },
   {
    "name": "Glass",
-   "tris": 10,
+   "tris": 16,
    "size": [
     5.6,
     2.2,
@@ -42,42 +42,42 @@
   },
   {
    "name": "Trim",
-   "tris": 406,
+   "tris": 586,
    "size": [
-    7.0,
-    3.4,
-    15.83
+    7.6539,
+    5.435,
+    15.8026
    ],
    "center": [
-    -0.0,
-    2.45,
-    0.085
+    -0.4769,
+    2.7375,
+    0.0987
    ],
    "textured": true
   },
   {
    "name": "Hood",
-   "tris": 12,
+   "tris": 136,
    "size": [
     5.4,
-    0.4423,
+    0.8174,
     4.6
    ],
    "center": [
     -0.0,
-    3.0343,
+    3.2218,
     -4.85
    ],
    "textured": false,
    "pivot_offset": [
     -0.0,
-    0.2212,
+    0.0336,
     2.3
    ]
   },
   {
    "name": "Trunk",
-   "tris": 12,
+   "tris": 96,
    "size": [
     5.4,
     0.2578,
@@ -114,16 +114,21 @@
    "name": "Wheel_FL",
    "tris": 72,
    "size": [
-    0.92,
-    2.4,
+    1.05,
+    1.88,
     2.2825
    ],
    "center": [
     -2.85,
-    1.2,
+    0.96,
     -4.7
    ],
-   "textured": true
+   "textured": true,
+   "pivot_offset": [
+    -0.0,
+    -0.26,
+    0.0
+   ]
   },
   {
    "name": "Wheel_FR",
