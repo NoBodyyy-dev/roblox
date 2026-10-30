@@ -1,0 +1,129 @@
+{
+  "context": {
+    "server": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"isClient\":false,\"time\":0.6708333687856793,\"isServer\":true}"
+        }
+      ],
+      "isError": false
+    },
+    "client": {
+      "content": [
+        {
+          "type": "text",
+          "text": "{\"isClient\":true,\"time\":0.9250000482425094,\"isServer\":false}"
+        }
+      ],
+      "isError": false
+    }
+  },
+  "records": [
+    {
+      "nominalTime": 0,
+      "hostElapsedSeconds": 1.101,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":1.083333390764892,\"hud\":\"ТЕСТ H   t=1 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 ещё не выполнен\\n  2 ещё не выполнен\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://108152632748455\\n  TestBox_Server.Color = 255,255,255\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 ещё не выполнен\\n  2 ещё не выполнен\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\",\"serverResults\":[],\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Client\":{\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 6,
+      "hostElapsedSeconds": 6.773,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":7.083333705551922,\"hud\":\"ТЕСТ H   t=7 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 ещё не выполнен\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,255,255\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 ещё не выполнен\\n  2 ещё не выполнен\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 14,
+      "hostElapsedSeconds": 14.854,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":15.100000790320337,\"hud\":\"ТЕСТ H   t=15 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,0,0\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 TextureID -> Worn: OK\\n  2 ещё не выполнен\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\",\"2\":\"2 Color -> красный: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://84625703848594\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 22,
+      "hostElapsedSeconds": 22.908,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":23.100001208484174,\"hud\":\"ТЕСТ H   t=23 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  4 ещё не выполнен\\n  5 ещё не выполнен\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,0,0\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3 ещё не выполнен\\n  4 ещё не выполнен\\n  5 ещё не выполнен\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\",\"3\":\"3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\",\"2\":\"2 Color -> красный: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 30,
+      "hostElapsedSeconds": 30.844,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":31.10000162757933,\"hud\":\"ТЕСТ H   t=31 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  5 ещё не выполнен\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,0,0\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 0,0,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  4 ещё не выполнен\\n  5 ещё не выполнен\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\",\"4\":\"3b SA.Color -> синий: OK\",\"3\":\"3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\",\"2\":\"2 Color -> красный: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"0, 0, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 38,
+      "hostElapsedSeconds": 38.956,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":39.100002048537138,\"hud\":\"ТЕСТ H   t=39 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  4 SA удалить + копия из ReplicatedStorage: OK\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,0,0\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  5 ещё не выполнен\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\",\"3\":\"3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\",\"2\":\"2 Color -> красный: OK\",\"5\":\"4 SA удалить + копия из ReplicatedStorage: OK\",\"4\":\"3b SA.Color -> синий: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://108152632748455\",\"color\":\"0, 0, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://84625703848594\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 46,
+      "hostElapsedSeconds": 46.92,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":47.09583580167964,\"hud\":\"ТЕСТ H   t=47 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  4 SA удалить + копия из ReplicatedStorage: OK\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,0,0\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  4 SA удалить + копия из ReplicatedStorage: OK\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\",\"3\":\"3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\",\"2\":\"2 Color -> красный: OK\",\"5\":\"4 SA удалить + копия из ReplicatedStorage: OK\",\"4\":\"3b SA.Color -> синий: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://84625703848594\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://84625703848594\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    },
+    {
+      "nominalTime": 50,
+      "hostElapsedSeconds": 50.771,
+      "state": {
+        "content": [
+          {
+            "type": "text",
+            "text": "{\"time\":51.10000267950818,\"hud\":\"ТЕСТ H   t=51 с   IsServer=false IsClient=true\\n\\nСЕРВЕР, результат установки:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  4 SA удалить + копия из ReplicatedStorage: OK\\n\\nКЛИЕНТ ВИДИТ У СЕРВЕРНЫХ КУБОВ (репликация):\\n  TestBox_Server.TextureID = rbxassetid://84625703848594\\n  TestBox_Server.Color = 255,0,0\\n  TestBox_Server_SA: SA = SurfaceAppearance\\n    ColorMap = ошибка чтения: The current thread cannot read 'ColorMap' (lacking capability Plugin)\\n    Color = 255,255,255\\n\\nКЛИЕНТ, свои кубы:\\n  1 TextureID -> Worn: OK\\n  2 Color -> красный: OK\\n  3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\\n  3b SA.Color -> синий: OK\\n  4 SA удалить + копия из ReplicatedStorage: OK\",\"serverResults\":{\"1\":\"1 TextureID -> Worn: OK\",\"3\":\"3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)\",\"2\":\"2 Color -> красный: OK\",\"5\":\"4 SA удалить + копия из ReplicatedStorage: OK\",\"4\":\"3b SA.Color -> синий: OK\"},\"boxes\":{\"TestBox_Client_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://84625703848594\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server_SA\":{\"sa\":{\"colorMap\":\"rbxassetid://84625703848594\",\"color\":\"1, 1, 1\"},\"color\":\"1, 1, 1\",\"texture\":\"rbxassetid://108152632748455\"},\"TestBox_Server\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"},\"TestBox_Client\":{\"color\":\"1, 0, 0\",\"texture\":\"rbxassetid://84625703848594\"}}}"
+          }
+        ],
+        "isError": false
+      }
+    }
+  ],
+  "cameraAdjustment": "Camera moved at runtime to (0,18,100) looking at (0,15,60), so all 4 boxes lie below HUD; source scripts unchanged."
+}

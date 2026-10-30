@@ -4,12 +4,12 @@
 
 local IDS = {
 	-- обязательные для тестов A–H
-	T_Palette_Main = 0,
-	T_Palette_Worn = 0,
-	T_Palette_WeaponSkin_Gold = 0,
-	T_Palette_WeaponSkin_Arctic = 0,
-	T_VehicleSkin_Test = 0,
-	T_Sticker_Flames_01 = 0,
+	T_Palette_Main = 108152632748455,
+	T_Palette_Worn = 84625703848594,
+	T_Palette_WeaponSkin_Gold = 80943362922688,
+	T_Palette_WeaponSkin_Arctic = 118374044746602,
+	T_VehicleSkin_Test = 79832822427286,
+	T_Sticker_Flames_01 = 139530244188451,
 	-- не участвуют в тестах, грузить по желанию
 	T_Palette_Armor_State2 = 0,
 	T_Palette_Armor_State3 = 0,
