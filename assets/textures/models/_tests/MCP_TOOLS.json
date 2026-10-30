@@ -1,0 +1,37 @@
+[
+  {
+    "expected": "upload_image",
+    "actual": "mcp__Roblox_Studio__upload_image",
+    "notes": "HTTP imagePaths + studio_id; creator/group selection not exposed"
+  },
+  {
+    "expected": "insert_asset",
+    "actual": "mcp__Roblox_Studio__insert_asset",
+    "notes": ""
+  },
+  {
+    "expected": "execute_luau",
+    "actual": "mcp__Roblox_Studio__execute_luau",
+    "notes": ""
+  },
+  {
+    "expected": "start_stop_play",
+    "actual": "mcp__Roblox_Studio__start_stop_play",
+    "notes": ""
+  },
+  {
+    "expected": "inspect_instance",
+    "actual": "mcp__Roblox_Studio__inspect_instance",
+    "notes": ""
+  },
+  {
+    "expected": "screen_capture",
+    "actual": "mcp__Roblox_Studio__screen_capture",
+    "notes": ""
+  },
+  {
+    "expected": "get_console_output",
+    "actual": "mcp__Roblox_Studio__get_console_output",
+    "notes": ""
+  }
+]

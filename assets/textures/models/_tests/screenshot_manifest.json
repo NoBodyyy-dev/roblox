@@ -1,0 +1,924 @@
+[
+  {
+    "name": "A_world_posX",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 102100
+  },
+  {
+    "name": "A_world_negX",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 110728
+  },
+  {
+    "name": "A_world_posY",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      1,
+      0
+    ],
+    "dist": 15,
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 35312
+  },
+  {
+    "name": "A_world_negY",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      -1,
+      0
+    ],
+    "dist": 15,
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 165400
+  },
+  {
+    "name": "A_world_posZ",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 15,
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 107532
+  },
+  {
+    "name": "A_world_negZ",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 15,
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 109268
+  },
+  {
+    "name": "B_world_posX_50",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 100428
+  },
+  {
+    "name": "B_world_posX_200",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 99900
+  },
+  {
+    "name": "B_world_posX_500",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 100872
+  },
+  {
+    "name": "B_world_posX_1000",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 100440
+  },
+  {
+    "name": "B_world_negX_50",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 110676
+  },
+  {
+    "name": "B_world_negX_200",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 110404
+  },
+  {
+    "name": "B_world_negX_500",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 111276
+  },
+  {
+    "name": "B_world_negX_1000",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 111300
+  },
+  {
+    "name": "B_world_posY_50",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      1,
+      0
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 33788
+  },
+  {
+    "name": "B_world_posY_200",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      1,
+      0
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 33568
+  },
+  {
+    "name": "B_world_posY_500",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      1,
+      0
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 32928
+  },
+  {
+    "name": "B_world_posY_1000",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      1,
+      0
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 55852
+  },
+  {
+    "name": "B_world_negY_50",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      -1,
+      0
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 165608
+  },
+  {
+    "name": "B_world_negY_200",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      -1,
+      0
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 165076
+  },
+  {
+    "name": "B_world_negY_500",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      -1,
+      0
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 164804
+  },
+  {
+    "name": "B_world_negY_1000",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      -1,
+      0
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 164684
+  },
+  {
+    "name": "B_world_posZ_50",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 107836
+  },
+  {
+    "name": "B_world_posZ_200",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 107228
+  },
+  {
+    "name": "B_world_posZ_500",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 108016
+  },
+  {
+    "name": "B_world_posZ_1000",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 107908
+  },
+  {
+    "name": "B_world_negZ_50",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 109340
+  },
+  {
+    "name": "B_world_negZ_200",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 110032
+  },
+  {
+    "name": "B_world_negZ_500",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 112112
+  },
+  {
+    "name": "B_world_negZ_1000",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 112760
+  },
+  {
+    "name": "B_bleed_50",
+    "target": "TestUVBleed",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 50,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 112824
+  },
+  {
+    "name": "B_bleed_200",
+    "target": "TestUVBleed",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 200,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 112132
+  },
+  {
+    "name": "B_bleed_500",
+    "target": "TestUVBleed",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 500,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 113188
+  },
+  {
+    "name": "B_bleed_1000",
+    "target": "TestUVBleed",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 1000,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 114228
+  },
+  {
+    "name": "C_world_posX",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 101896
+  },
+  {
+    "name": "C_world_negX",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 110728
+  },
+  {
+    "name": "C_world_posY",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      1,
+      0
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 35008
+  },
+  {
+    "name": "C_world_negY",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      -1,
+      0
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 164900
+  },
+  {
+    "name": "C_world_posZ",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 107036
+  },
+  {
+    "name": "C_world_negZ",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 108908
+  },
+  {
+    "name": "D_Gold_steel",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 109604
+  },
+  {
+    "name": "D_Gold_overall",
+    "target": "TestPaletteBox",
+    "face": [
+      -0.6,
+      0.5,
+      -1
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 56224
+  },
+  {
+    "name": "D_Arctic_steel",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      -1
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 108704
+  },
+  {
+    "name": "D_Arctic_overall",
+    "target": "TestPaletteBox",
+    "face": [
+      -0.6,
+      0.5,
+      -1
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 55240
+  },
+  {
+    "name": "E_red",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 91780
+  },
+  {
+    "name": "E_blue",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 94452
+  },
+  {
+    "name": "E_white",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 85916
+  },
+  {
+    "name": "F_light_dark",
+    "target": "TestF",
+    "face": [
+      0,
+      1,
+      0.3
+    ],
+    "dist": 15,
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 94444
+  },
+  {
+    "name": "G_A16_Q1_A_signal",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 37608
+  },
+  {
+    "name": "G_A16_Q1_A_gradient",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 34220
+  },
+  {
+    "name": "G_A16_Q1_B_bad_200",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 200,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 33544
+  },
+  {
+    "name": "G_A16_Q1_B_signal_200",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 200,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 36428
+  },
+  {
+    "name": "G_A16_Q1_E_red",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 27040
+  },
+  {
+    "name": "G_A16_Q1_E_blue",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 27600
+  },
+  {
+    "name": "G_A16_Q1_E_white",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 25308
+  },
+  {
+    "name": "G_A16_Q1_signal_sand",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "quality": 1,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 37352
+  },
+  {
+    "name": "G_A16_Q10_A_signal",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 39044
+  },
+  {
+    "name": "G_A16_Q10_A_gradient",
+    "target": "TestPaletteBox",
+    "face": [
+      1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 35612
+  },
+  {
+    "name": "G_A16_Q10_B_bad_200",
+    "target": "TestPaletteBox",
+    "face": [
+      0,
+      0,
+      1
+    ],
+    "dist": 200,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 35852
+  },
+  {
+    "name": "G_A16_Q10_B_signal_200",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 200,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 38052
+  },
+  {
+    "name": "G_A16_Q10_E_red",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 33000
+  },
+  {
+    "name": "G_A16_Q10_E_blue",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 33564
+  },
+  {
+    "name": "G_A16_Q10_E_white",
+    "target": "TestE",
+    "face": [
+      0.6,
+      0.5,
+      1
+    ],
+    "dist": 25,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 31176
+  },
+  {
+    "name": "G_A16_Q10_signal_sand",
+    "target": "TestPaletteBox",
+    "face": [
+      -1,
+      0,
+      0
+    ],
+    "dist": 15,
+    "quality": 10,
+    "device": "Samsung Galaxy A16",
+    "sourceFormat": "image/jpeg",
+    "isolated": true,
+    "savedVerified": true,
+    "base64Length": 38308
+  }
+]

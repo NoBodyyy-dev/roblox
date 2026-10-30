@@ -1,0 +1,51 @@
+размер/режим | T_Palette_Main.png | OK | (512, 512, 3)
+ячейки однородны | T_Palette_Main.png | OK |
+различимость строка 0 | T_Palette_Main.png | OK | min 0.0500
+различимость строка 1 | T_Palette_Main.png | OK | min 0.0265
+различимость строка 2 | T_Palette_Main.png | OK | min 0.0262
+различимость строка 3 | T_Palette_Main.png | OK | min 0.0254
+различимость строка 4 | T_Palette_Main.png | OK | min 0.0276
+различимость строка 5 | T_Palette_Main.png | OK | min 0.0293
+различимость строка 6 | T_Palette_Main.png | OK | min 0.0365
+различимость строка 7 | T_Palette_Main.png | OK | min 0.0291
+различимость строка 8 | T_Palette_Main.png | OK | min 0.0317
+различимость строка 9 | T_Palette_Main.png | OK | min 0.0675
+различимость строка 10 | T_Palette_Main.png | OK | min 0.0500
+различимость строка 11 | T_Palette_Main.png | OK | min 0.0900
+различимость строка 12 | T_Palette_Main.png | OK | min 0.0351
+различимость строка 13 | T_Palette_Main.png | OK | min 0.0378
+заданные hex 10–13 | T_Palette_Main.png | OK |
+контроль sand | T_Palette_Main.png | OK | sand_00=#7A5A3A sand_08=#BD9D72 sand_15=#F2DFB4
+градиенты from/to, монотонность | T_Palette_Main.png | OK |
+palette.json | palette.json | OK | 232 записей, 232 уникальных
+совпадение с _cells.json (JS) | palette.json | OK |
+прочие строки побайтово равны | T_Palette_Worn.png | OK |
+прочие строки побайтово равны | T_Palette_WeaponSkin_Gold.png | OK |
+прочие строки побайтово равны | T_Palette_WeaponSkin_Arctic.png | OK |
+прочие строки побайтово равны | T_Palette_Armor_State2.png | OK |
+прочие строки побайтово равны | T_Palette_Armor_State3.png | OK |
+ячейки однородны | T_Palette_Worn.png | OK |
+различимость строка 0 | T_Palette_Worn.png | OK | min 0.0414
+различимость строка 1 | T_Palette_Worn.png | OK | min 0.0210
+различимость строка 2 | T_Palette_Worn.png | OK | min 0.0212
+различимость строка 3 | T_Palette_Worn.png | OK | min 0.0206
+различимость строка 4 | T_Palette_Worn.png | OK | min 0.0223
+различимость строка 5 | T_Palette_Worn.png | OK | min 0.0236
+различимость строка 6 | T_Palette_Worn.png | OK | min 0.0296
+различимость строка 7 | T_Palette_Worn.png | OK | min 0.0236
+различимость строка 8 | T_Palette_Worn.png | OK | min 0.0269
+различимость строка 9 | T_Palette_Worn.png | OK | min 0.0567
+различимость строка 11 | T_Palette_Worn.png | OK | min 0.0743
+различимость строка 12 | T_Palette_Worn.png | OK | min 0.0250
+различимость строка 13 | T_Palette_Worn.png | OK | min 0.0224
+ячейки однородны | T_Palette_Armor_State2.png | OK |
+различимость строка 13 | T_Palette_Armor_State2.png | OK | min 0.0269
+различимость строка 12 (группы) | T_Palette_WeaponSkin_Gold.png | OK | min 0.0512
+различимость строка 12 (группы) | T_Palette_WeaponSkin_Arctic.png | OK | min 0.0568
+пары ΔE<0.02 (намеренно) | T_Palette_Armor_State3.png | WARN | armor_paper_aged/armor_tape:0.0160 armor_paper_aged/armor_twine:0.0123 armor_news_dark/armor_tape_dark:0.0187
+размер/режим/ореол | T_VehicleSkin_Test.png | OK | 1024×1024 RGBA ореол max ΔE 0.0000
+размер/режим/ореол | T_Sticker_Flames_01.png | OK | 512×512 RGBA ореол max ΔE 0.0014
+размер/режим/ореол | T_Plate_01.png | OK | 256×128 RGB
+размер/режим/ореол | T_Glass_Cracked_01.png | OK | 512×512 RGBA ореол max ΔE 0.0015
+
+FAIL: 0. Выход: C:\Users\ssskorrr\Documents\Codex\2026-10-30\new-chat-3\roblox\assets

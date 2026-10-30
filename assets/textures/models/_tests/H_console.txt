@@ -1,0 +1,14 @@
+Infinite yield possible on 'Workspace:WaitForChild("TestBox_Client")'
+Stack Begin
+Script 'Players.sssskorrrr.PlayerScripts.TestH_Client', Line 16
+Stack End
+[TestH][server] 1 TextureID -> Worn: OK
+[TestH][server] 2 Color -> красный: OK
+[TestH][client] 1 TextureID -> Worn: OK
+[TestH][server] 3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)
+[TestH][client] 2 Color -> красный: OK
+[TestH][server] 3b SA.Color -> синий: OK
+[TestH][client] 3a SA.ColorMap -> Worn: ОШИБКА: The current thread cannot write 'ColorMap' (lacking capability Plugin)
+[TestH][server] 4 SA удалить + копия из ReplicatedStorage: OK
+[TestH][client] 3b SA.Color -> синий: OK
+[TestH][client] 4 SA удалить + копия из ReplicatedStorage: OK

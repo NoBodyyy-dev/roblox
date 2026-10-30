@@ -1,3 +1,26 @@
+# Wally
+Packages/
+ServerPackages/
+DevPackages/
+
+# Rojo / luau-lsp
+sourcemap.json
+
+# Studio
 *.rbxl.lock
 *.rbxlx.lock
+
+# Blender
+*.blend1
+*.blend2
+
+# Системное и редакторы
+.~lock.*#
 .DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# Python
+.venv/
+__pycache__/
