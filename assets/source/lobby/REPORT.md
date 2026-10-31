@@ -1,6 +1,13 @@
 # Лобби P0 — отчёт
 
-Статус: **review.** Собрано в Blender и в Studio (2026-10-31), проверено по манифестам, `.rbxm` в `assets/rbxm/Lobby/`. Все 18 мешей и палитра принадлежат группе «Грева нет» (867558223), MeshId — `studio/mesh_ids.json`.
+Статус: **review.** Собрано в Blender и в Studio (2026-10-31), проверено по манифестам, `.rbxm` в `assets/rbxm/Lobby/`. Все 19 мешей и палитра принадлежат группе «Грева нет» (867558223), MeshId — `studio/mesh_ids.json`.
+
+## Итерация 2 (по замечаниям владельца, 2026-10-31)
+
+- **Фон мрачнее и детальнее.** Дома за оградой вынесены в отдельную модель **`Lobby_Backdrop`** (`Buildings` 5 055 + `Skyline` 216 = 5 271 треугольник, без коллизии и теней). Тёмные грязные стены, на фасадах во двор: межэтажные карнизы, подоконники, балконы, пожарные лестницы, заколоченные и выбитые окна с осколками, копоть, пара тускло освещённых окон. Обрушенные углы с плитами и завалом, на крышах баки, антенны, короба. Второй, дальний ряд тёмных силуэтов. Хаб без фона — 5 235 треугольников.
+- **Живой костёр.** На Attachment `Campfire` хаба — `ParticleEmitter` `Flames`, `Embers`, `Smoke` и `PointLight` `FireLight` (тени, радиус 26). Текстуры встроенные (`rbxasset://textures/particles/*`), загрузка не нужна, скриптов нет. Добавляются в конце `assemble_lobby.luau` из `assets/tools/lobby/lobby_fx.luau`. Мерцание света — код Разработчика (по желанию).
+- **Мрачное освещение — пресет** `assets/lighting/lobby_lighting.luau`: сумерки (ClockTime 18,9), `Atmosphere` с дымкой, `ColorCorrection` (минус насыщенность, плюс контраст), лёгкий `Bloom` для огня и гирлянды. Настройки плейса — зона Разработчика: он применяет пресет в плейсе Lobby. Скриншоты с пресетом — `studio_gloom/`, без него — `studio/`.
+- Отдельные OBJ теперь тоже с правильными именами групп (`normalize_groups` в `merge_obj.py`).
 
 ## Что это
 
@@ -10,7 +17,8 @@
 
 | Ассет | `.rbxm` | Части | Треугольники |
 |---|---|---|---|
-| Lobby_Hub | `rbxm/Lobby/Lobby_Hub.rbxm` | `Ground` 243, `Walls` 2 664, `Props` 1 872, `Fire` 24, `Tower` 432, `Backdrop` 924 + 69 невидимых `Collider_N` | 6 159 |
+| Lobby_Hub | `rbxm/Lobby/Lobby_Hub.rbxm` | `Ground` 243, `Walls` 2 664, `Props` 1 872, `Fire` 24, `Tower` 432 + 69 невидимых `Collider_N`; частицы и свет костра | 5 235 |
+| Lobby_Backdrop | `rbxm/Lobby/Lobby_Backdrop.rbxm` | `Buildings` 5 055, `Skyline` 216 | 5 271 |
 | Lobby_Door_City | `rbxm/Lobby/Lobby_Door_City.rbxm` | `Frame` 144, `Door` 216, `Sign` 228, `Lock` 156 | 744 |
 | Lobby_Door_Sea | `rbxm/Lobby/Lobby_Door_Sea.rbxm` | `Frame`, `Door`, `Sign` 124, `Lock` | 640 |
 | Lobby_Door_Mountains | `rbxm/Lobby/Lobby_Door_Mountains.rbxm` | `Frame`, `Door`, `Sign` 68, `Lock` | 584 |

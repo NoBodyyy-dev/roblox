@@ -296,7 +296,6 @@ def hub():
     w = walls(rng, colliders)
     pr, fire = props(rng, colliders, att)
     tw = tower(colliders, att)
-    bd = backdrop(rng)
     colliders.append((Vector((0, 0, -0.5)), Vector((HX * 2 + 8, HY * 2 + 8, 1.0)), None))
     for i, x in enumerate((-12, -4, 4, 12), 1):
         att[f'Spawn_{i}'] = Vector((x, -30, 0))
@@ -306,7 +305,7 @@ def hub():
     for i, x in enumerate((-34, -20, -6), 1):
         att[f'Leaderboard_{i}'] = Vector((x, -32, 0))
     return {
-        'name': 'Lobby_Hub', 'category': 'Lobby', 'primary': 'Ground', 'parts': [g, w, pr, fire, tw, bd],
+        'name': 'Lobby_Hub', 'category': 'Lobby', 'primary': 'Ground', 'parts': [g, w, pr, fire, tw],
         'pivots': {}, 'attachments': {k: ('Ground', v) for k, v in att.items()}, 'colliders': colliders,
         'attributes': {}, 'studio': {
             'Ground': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False},  # пол — картинка, ходят по коллайдеру-боксу
@@ -314,6 +313,5 @@ def hub():
             'Props': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False},
             'Fire': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False, 'Material': 'Neon'},
             'Tower': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False},
-            'Backdrop': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False, 'CastShadow': False},
         },
     }

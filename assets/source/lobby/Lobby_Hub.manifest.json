@@ -6,9 +6,9 @@
  "attributes": {
   "AssetId": "Lobby_Hub",
   "Category": "Lobby",
-  "Tris": 6159
+  "Tris": 5235
  },
- "tris_visible": 6159,
+ "tris_visible": 5235,
  "parts": [
   {
    "name": "Ground",
@@ -82,21 +82,6 @@
     -40.0,
     10.7631,
     32.0
-   ],
-   "textured": true
-  },
-  {
-   "name": "Backdrop",
-   "tris": 924,
-   "size": [
-    158.2507,
-    55.6325,
-    109.0
-   ],
-   "center": [
-    -0.1253,
-    27.8163,
-    21.5
    ],
    "textured": true
   }
@@ -1840,12 +1825,6 @@
    "CanCollide": false,
    "CanTouch": false,
    "CanQuery": false
-  },
-  "Backdrop": {
-   "CanCollide": false,
-   "CanTouch": false,
-   "CanQuery": false,
-   "CastShadow": false
   }
  },
  "uv": {
@@ -1866,10 +1845,6 @@
    "min_px_to_cell_edge": 12.0
   },
   "Tower": {
-   "outside_safe_rect": 0,
-   "min_px_to_cell_edge": 12.0
-  },
-  "Backdrop": {
    "outside_safe_rect": 0,
    "min_px_to_cell_edge": 12.0
   }

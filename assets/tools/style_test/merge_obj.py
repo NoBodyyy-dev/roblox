@@ -11,6 +11,18 @@ SRC = Path(__file__).resolve().parents[2] / 'source' / 'style_test'
 NAMES = ['House_Small_01', 'Sedan', 'Rock_Desert_01', 'Sedan_Wheel_Flat']
 
 
+def normalize_groups(path):
+    """Отдельный OBJ из Blender: группы <объект>_<меш> → имя части (как в merge), чтобы импорт дал верные имена."""
+    out = []
+    for line in Path(path).read_text(encoding='utf-8').splitlines():
+        if line.startswith(('g ', 'o ')):
+            name_ = line[2:].strip()
+            half = name_[:len(name_) // 2]
+            line = f'{line[0]} {half if name_ == f"{half}_{half}" else name_}'
+        out.append(line)
+    Path(path).write_text('\n'.join(out) + '\n', encoding='utf-8')
+
+
 def merge(src=SRC, names=NAMES, out_name='StyleTest_All'):
     out, mtl, seen = [f'# {out_name}: ' + ', '.join(names), f'mtllib {out_name}.mtl'], [], set()
     off = {'v': 0, 'vt': 0, 'vn': 0}

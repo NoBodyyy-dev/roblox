@@ -19,9 +19,10 @@ HERE = Path(__file__).resolve().parent
 sys.path[:0] = [str(HERE), str(HERE.parent / 'style_test')]
 
 import build_style_test as bst  # noqa: E402
+import lobby_backdrop  # noqa: E402
 import lobby_doors  # noqa: E402
 import lobby_hub  # noqa: E402
-from merge_obj import merge  # noqa: E402
+from merge_obj import merge, normalize_groups  # noqa: E402
 
 OUT = bst.ASSETS / 'source' / 'lobby'
 bst.OUT = OUT  # export() пишет в bst.OUT
@@ -30,7 +31,7 @@ PLACE = Vector((0, 0, 300))  # где собрать лобби в тестов�
 
 def assets():
     gates = [lobby_doors.gate(r, r == 'City') for r in ('Sea', 'City', 'Mountains')]
-    return [lobby_hub.hub()] + gates
+    return [lobby_hub.hub(), lobby_backdrop.backdrop()] + gates
 
 
 def manifest_fix(m, asset):
@@ -38,7 +39,7 @@ def manifest_fix(m, asset):
     for p in m['parts']:
         if '__' in p['name']:
             p['src'], p['name'] = p['name'], p['name'].split('__', 1)[1]
-    if asset['name'] == 'Lobby_Hub':
+    if asset['name'] in ('Lobby_Hub', 'Lobby_Backdrop'):
         m['place_at'] = list(PLACE)
     else:
         x = lobby_hub.GATES[asset['attributes']['Region']]
@@ -64,7 +65,7 @@ def previews(groups):
     prev = bpy.data.collections.new('Preview')
     sc.collection.children.link(prev)
     for name, objs in groups.items():
-        if name == 'Lobby_Hub':
+        if name in ('Lobby_Hub', 'Lobby_Backdrop'):
             continue
         x = lobby_hub.GATES[name.rsplit('_', 1)[1]]
         for o in objs:
@@ -109,6 +110,7 @@ def main():
         bpy.context.scene.collection.children.link(coll)
         objs, m = bst.build(asset, mats, coll)
         bst.export(objs, asset['name'])
+        normalize_groups(OUT / f"{asset['name']}.obj")
         m = manifest_fix(m, asset)
         (OUT / f"{asset['name']}.manifest.json").write_text(json.dumps(m, ensure_ascii=False, indent=1), encoding='utf-8')
         groups[asset['name']] = objs
@@ -121,7 +123,8 @@ def main():
     st = HERE.parent / 'style_test'
     (HERE / 'assemble_lobby.luau').write_text(
         (st / 'assemble_template.luau').read_text(encoding='utf-8').replace('--@@MANIFESTS@@', data)
-        .replace('"StyleTest"', '"Lobby"'), encoding='utf-8')
+        .replace('"StyleTest"', '"Lobby"').replace('return table.concat(log, "\\n")', (HERE / 'lobby_fx.luau').read_text(encoding='utf-8') + 'return table.concat(log, "\\n")'),
+        encoding='utf-8')
     (HERE / 'verify_lobby.luau').write_text(
         (st / 'verify_template.luau').read_text(encoding='utf-8').replace('--@@MANIFESTS@@', data)
         .replace('workspace.StyleTest', 'workspace.Lobby'), encoding='utf-8')
