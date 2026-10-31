@@ -15,7 +15,7 @@
 | `places/Lobby.project.json` | Lobby | Код, пакеты, `ServerStorage.Assets.Lobby`, освещение лобби (пресет Художника `assets/lighting/lobby_lighting.luau`) |
 | `places/City.project.json` | City | Код, `ServerStorage.Assets.Buildings/Nature`, `ReplicatedStorage.Assets.Vehicles` |
 | `places/Sea.project.json`, `places/Mountains.project.json` | Sea, Mountains | Код, `ReplicatedStorage.Assets.Vehicles` |
-| `default.project.json` | Dev | Как Lobby + тесты и `DevPackages`: для тестов, sourcemap и luau-lsp |
+| `default.project.json` | Dev | Как Lobby + тесты, `DevPackages` и временный пол `DevBaseplate` (лобби ставит код с фазы 1): для тестов, плейтеста кода, sourcemap и luau-lsp |
 
 Роль плейса задаёт атрибут `Workspace.PlaceRole` в проекте, код читает его через `Shared.Place`. Окружение (`prod` / `dev` / `studio`) определяется по PlaceId из `config/places.json`.
 

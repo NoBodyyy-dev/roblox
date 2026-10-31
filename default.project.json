@@ -51,6 +51,50 @@
 			},
 			"$attributes": {
 				"PlaceRole": "Lobby"
+			},
+			"DevBaseplate": {
+				"$className": "Part",
+				"$properties": {
+					"Anchored": true,
+					"Locked": true,
+					"Material": "Concrete",
+					"Size": [
+						512,
+						4,
+						512
+					],
+					"CFrame": {
+						"CFrame": {
+							"position": [
+								0,
+								-2,
+								0
+							],
+							"orientation": [
+								[
+									1,
+									0,
+									0
+								],
+								[
+									0,
+									1,
+									0
+								],
+								[
+									0,
+									0,
+									1
+								]
+							]
+						}
+					},
+					"Color": [
+						0.39,
+						0.39,
+						0.37
+					]
+				}
 			}
 		},
 		"Lighting": {
