@@ -1,0 +1,8 @@
+{
+	"_comment": "ID игр и плейсов от группы «Грева нет». Заполняет Разработчик после публикации (Issue #8). 0 = ещё не опубликовано.",
+	"groupId": 867558223,
+	"environments": {
+		"prod": { "universeId": 0, "places": { "Lobby": 0, "City": 0, "Sea": 0, "Mountains": 0 } },
+		"dev": { "universeId": 0, "places": { "Lobby": 0, "City": 0, "Sea": 0, "Mountains": 0 } }
+	}
+}

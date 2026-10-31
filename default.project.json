@@ -1,0 +1,134 @@
+{
+	"name": "Dev",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Shared": {
+				"$path": "src/shared"
+			},
+			"Packages": {
+				"$path": "Packages"
+			},
+			"DevPackages": {
+				"$path": "DevPackages"
+			},
+			"Tests": {
+				"$path": "tests"
+			}
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"ServerPackages": {
+				"$path": "ServerPackages"
+			},
+			"Assets": {
+				"$className": "Folder",
+				"Lobby": {
+					"$path": "assets/rbxm/Lobby"
+				}
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"Server": {
+				"$path": "src/server"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"Client": {
+					"$path": "src/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"$properties": {
+				"StreamingEnabled": true
+			},
+			"$attributes": {
+				"PlaceRole": "Lobby"
+			}
+		},
+		"Lighting": {
+			"$className": "Lighting",
+			"$properties": {
+				"GeographicLatitude": 35,
+				"Brightness": 1.4,
+				"ExposureCompensation": 0.15,
+				"Ambient": [
+					0.2353,
+					0.2431,
+					0.2824
+				],
+				"OutdoorAmbient": [
+					0.4235,
+					0.4314,
+					0.4863
+				],
+				"ColorShift_Top": [
+					1.0,
+					0.7686,
+					0.6275
+				],
+				"ColorShift_Bottom": [
+					0.1569,
+					0.1725,
+					0.2353
+				],
+				"EnvironmentDiffuseScale": 0.35,
+				"EnvironmentSpecularScale": 0.15,
+				"GlobalShadows": true
+			},
+			"GloomAtmosphere": {
+				"$className": "Atmosphere",
+				"$properties": {
+					"Density": 0.42,
+					"Offset": 0.12,
+					"Color": [
+						0.5882,
+						0.5725,
+						0.5569
+					],
+					"Decay": [
+						0.3608,
+						0.3216,
+						0.298
+					],
+					"Glare": 0.1,
+					"Haze": 2.2
+				}
+			},
+			"GloomGrade": {
+				"$className": "ColorCorrectionEffect",
+				"$properties": {
+					"Saturation": -0.32,
+					"Contrast": 0.14,
+					"Brightness": -0.03,
+					"TintColor": [
+						0.9098,
+						0.8863,
+						0.8471
+					]
+				}
+			},
+			"GloomBloom": {
+				"$className": "BloomEffect",
+				"$properties": {
+					"Intensity": 0.6,
+					"Size": 24,
+					"Threshold": 1.5
+				}
+			}
+		},
+		"TextChatService": {
+			"$className": "TextChatService",
+			"$properties": {
+				"ChatVersion": "TextChatService"
+			}
+		}
+	}
+}

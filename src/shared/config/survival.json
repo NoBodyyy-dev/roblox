@@ -1,0 +1,8 @@
+{
+	"_comment": "Голод и жажда (GDD §12). Заглушка до фазы 5: все числа временные.",
+	"tickSeconds": 1,
+	"hunger": { "max": 100, "perMinute": 1.0 },
+	"thirst": { "max": 100, "perMinute": 1.5, "sunExtraPerMinute": 0.5 },
+	"warnAtPercent": 25,
+	"_TODO_DESIGN": ["hunger.perMinute", "thirst.perMinute", "thirst.sunExtraPerMinute", "warnAtPercent"]
+}

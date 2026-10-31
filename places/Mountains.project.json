@@ -1,0 +1,57 @@
+{
+	"name": "Mountains",
+	"tree": {
+		"$className": "DataModel",
+		"ReplicatedStorage": {
+			"$className": "ReplicatedStorage",
+			"Shared": {
+				"$path": "../src/shared"
+			},
+			"Packages": {
+				"$path": "../Packages"
+			},
+			"Assets": {
+				"$className": "Folder",
+				"Vehicles": {
+					"$path": "../assets/rbxm/Vehicles"
+				}
+			}
+		},
+		"ServerStorage": {
+			"$className": "ServerStorage",
+			"ServerPackages": {
+				"$path": "../ServerPackages"
+			}
+		},
+		"ServerScriptService": {
+			"$className": "ServerScriptService",
+			"Server": {
+				"$path": "../src/server"
+			}
+		},
+		"StarterPlayer": {
+			"$className": "StarterPlayer",
+			"StarterPlayerScripts": {
+				"$className": "StarterPlayerScripts",
+				"Client": {
+					"$path": "../src/client"
+				}
+			}
+		},
+		"Workspace": {
+			"$className": "Workspace",
+			"$properties": {
+				"StreamingEnabled": true
+			},
+			"$attributes": {
+				"PlaceRole": "Mountains"
+			}
+		},
+		"TextChatService": {
+			"$className": "TextChatService",
+			"$properties": {
+				"ChatVersion": "TextChatService"
+			}
+		}
+	}
+}

@@ -1,0 +1,7 @@
+{
+	"_comment": "Машины (AGENT_PROMPT §7a, design/specs/city.md §2). Скорость — studs/s. Заглушка до фазы 3.",
+	"vehicles": {
+		"Sedan": { "seats": 5, "cruiseSpeed": 38, "cargoSlots": 12, "fuelCapacity": 40, "fuelPerMinute": 1.0, "price": 0 }
+	},
+	"_TODO_DESIGN": ["vehicles.Sedan.cruiseSpeed", "vehicles.Sedan.cargoSlots", "vehicles.Sedan.fuelCapacity", "vehicles.Sedan.fuelPerMinute"]
+}
