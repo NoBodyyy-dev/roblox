@@ -1,0 +1,15 @@
+{
+	"_comment": "Погода (design/specs/city.md §11). Заглушка до фазы 8.",
+	"events": {
+		"Storm": {
+			"chancePerRun": 0.5,
+			"warningSeconds": 30,
+			"durationSeconds": 180,
+			"visibilityStuds": 250,
+			"gripMultiplier": 0.8,
+			"zombieHearingMultiplier": 0.6,
+			"thirstMultiplier": 0.7
+		}
+	},
+	"_TODO_DESIGN": ["events.Storm"]
+}

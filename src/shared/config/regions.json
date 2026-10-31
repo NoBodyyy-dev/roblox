@@ -1,0 +1,9 @@
+{
+	"_comment": "Порядок регионов и ворот лобби (GDD §3). Открытие следующего — после прохождения предыдущего.",
+	"order": ["City", "Sea", "Mountains"],
+	"regions": {
+		"City": { "openByDefault": true },
+		"Sea": { "openByDefault": false, "requires": "City" },
+		"Mountains": { "openByDefault": false, "requires": "Sea" }
+	}
+}

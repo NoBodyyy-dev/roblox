@@ -1,0 +1,9 @@
+{
+	"_comment": "Лобби (design/specs/lobby.md). clockTime — время суток в лобби, 0–24.",
+	"maxPlayers": 12,
+	"startCountdownSeconds": 5,
+	"inviteTimeoutSeconds": 30,
+	"spawnJitterStuds": 3,
+	"clockTime": 18.9,
+	"_TODO_DESIGN": ["maxPlayers", "startCountdownSeconds", "inviteTimeoutSeconds"]
+}

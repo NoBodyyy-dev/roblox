@@ -1,0 +1,6 @@
+{
+	"_comment": "Время суток в регионах (AGENT_PROMPT §6). startClockTime — время на старте локации, 0–24.",
+	"dayLengthMinutes": 12,
+	"startClockTime": 8,
+	"_TODO_DESIGN": ["dayLengthMinutes", "startClockTime"]
+}

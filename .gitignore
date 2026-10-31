@@ -24,3 +24,7 @@ desktop.ini
 # Python
 .venv/
 __pycache__/
+
+# Сборки и типы Roblox для luau-lsp (скачиваются `lune run check`)
+/build/
+/.luau-lsp/
