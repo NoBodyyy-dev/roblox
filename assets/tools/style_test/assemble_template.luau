@@ -22,7 +22,7 @@ local function findImport(asset: any): Model?
 	local wanted = {}
 	for _, p in asset.parts do
 		if p.name ~= "Collider" then
-			wanted[p.name] = true
+			wanted[p.src or p.name] = true -- src: имя группы в OBJ, если оно не совпадает с именем части
 		end
 	end
 	local best, bestHits = nil, 0
@@ -59,7 +59,7 @@ local function detectFlip(asset: any, src: Model): boolean
 		for j = i + 1, #asset.parts do
 			local q = asset.parts[j]
 			local d = (v3(p.center) - v3(q.center)) * Vector3.new(1, 0, 1)
-			if d.Magnitude > dmax and findPart(src, p.name) and findPart(src, q.name) then
+			if d.Magnitude > dmax and findPart(src, p.src or p.name) and findPart(src, q.src or q.name) then
 				a, b, dmax = p, q, d.Magnitude
 			end
 		end
@@ -67,7 +67,7 @@ local function detectFlip(asset: any, src: Model): boolean
 	if not a or dmax < 1 then
 		return false
 	end
-	local pa, pb = findPart(src, a.name) :: MeshPart, findPart(src, b.name) :: MeshPart
+	local pa, pb = findPart(src, a.src or a.name) :: MeshPart, findPart(src, b.src or b.name) :: MeshPart
 	local imported = (pb.Position - pa.Position) * Vector3.new(1, 0, 1)
 	local expected = (v3(b.center) - v3(a.center)) * Vector3.new(1, 0, 1)
 	return imported:Dot(expected) < 0
@@ -104,7 +104,7 @@ for i, asset in MANIFESTS do
 	end
 	local flip = detectFlip(asset, src)
 	local fix = flip and CFrame.Angles(0, math.pi, 0) or CFrame.identity
-	local origin = CFrame.new((i - 2) * SPACING, 0, 0)
+	local origin = asset.place_at and CFrame.new(v3(asset.place_at)) or CFrame.new((i - 2) * SPACING, 0, 0)
 	local model = Instance.new("Model")
 	model.Name = asset.asset
 	local defaults = asset.studio_props["*"] or {}
@@ -112,7 +112,7 @@ for i, asset in MANIFESTS do
 	local scaleNote = {}
 	for _, p in asset.parts do
 		local part: BasePart
-		local srcPart = findPart(src, p.name)
+		local srcPart = findPart(src, p.src or p.name)
 		if p.name == "Collider" or not srcPart then
 			if p.name ~= "Collider" then
 				table.insert(log, asset.asset .. ": нет части " .. p.name)

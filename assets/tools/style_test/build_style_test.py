@@ -1167,4 +1167,5 @@ def main():
     print('STYLE_TEST_SUMMARY ' + json.dumps(summary, ensure_ascii=False))
 
 
-main()
+if __name__ == '__main__':  # модуль импортирует assets/tools/lobby/build_lobby.py
+    main()

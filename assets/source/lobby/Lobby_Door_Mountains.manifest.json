@@ -1,0 +1,145 @@
+{
+ "asset": "Lobby_Door_Mountains",
+ "category": "Lobby",
+ "primary_part": "Frame",
+ "coords": "Roblox studs; pivot модели = центр основания (0,0,0); перёд −Z; оси (x,y,z)_blender → (−x,z,y)",
+ "attributes": {
+  "AssetId": "Lobby_Door_Mountains",
+  "Category": "Lobby",
+  "Tris": 584,
+  "Region": "Mountains",
+  "OpenByDefault": false
+ },
+ "tris_visible": 584,
+ "parts": [
+  {
+   "name": "Frame",
+   "tris": 144,
+   "size": [
+    18.3506,
+    14.9159,
+    1.95
+   ],
+   "center": [
+    -0.0,
+    7.3421,
+    0.075
+   ],
+   "textured": true,
+   "src": "GateMountains__Frame"
+  },
+  {
+   "name": "Door",
+   "tris": 216,
+   "size": [
+    12.3,
+    10.0,
+    0.575
+   ],
+   "center": [
+    0.15,
+    5.3,
+    -0.0375
+   ],
+   "textured": true,
+   "pivot_offset": [
+    5.85,
+    0.0,
+    0.0375
+   ],
+   "src": "GateMountains__Door"
+  },
+  {
+   "name": "Sign",
+   "tris": 68,
+   "size": [
+    7.6,
+    3.2,
+    0.55
+   ],
+   "center": [
+    -0.0,
+    15.4,
+    -0.775
+   ],
+   "textured": true,
+   "src": "GateMountains__Sign"
+  },
+  {
+   "name": "Lock",
+   "tris": 156,
+   "size": [
+    10.2167,
+    8.1664,
+    0.55
+   ],
+   "center": [
+    -0.0,
+    5.3,
+    -0.625
+   ],
+   "textured": true,
+   "src": "GateMountains__Lock"
+  }
+ ],
+ "model_pivot": [
+  -0.0,
+  0.0,
+  0.0
+ ],
+ "attachments": [
+  {
+   "name": "Entrance",
+   "parent": "Frame",
+   "position": [
+    -0.0,
+    0.0,
+    -5.0
+   ]
+  }
+ ],
+ "colliders": [],
+ "studio_props": {
+  "Frame": {
+   "CollisionFidelity": "Box"
+  },
+  "Door": {
+   "CanCollide": true,
+   "CollisionFidelity": "Box"
+  },
+  "Sign": {
+   "CanCollide": false,
+   "CanTouch": false,
+   "CanQuery": false
+  },
+  "Lock": {
+   "CanCollide": false,
+   "CanTouch": false,
+   "CanQuery": false
+  }
+ },
+ "uv": {
+  "GateMountains__Frame": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  },
+  "GateMountains__Door": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  },
+  "GateMountains__Sign": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  },
+  "GateMountains__Lock": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  }
+ },
+ "palette_image_id": "75482071682779 (T_Palette_Main, группа «Грева нет» 867558223)",
+ "place_at": [
+  -30.0,
+  0.0,
+  340.0
+ ]
+}

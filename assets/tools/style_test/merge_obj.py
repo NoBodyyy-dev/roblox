@@ -2,6 +2,7 @@
 
 python assets/tools/style_test/merge_obj.py
 Имена частей во всех ассетах разные, поэтому assemble_style_test.luau находит их и в общей модели.
+Функцию merge() использует и assets/tools/lobby/build_lobby.py.
 """
 import shutil
 from pathlib import Path
@@ -10,12 +11,12 @@ SRC = Path(__file__).resolve().parents[2] / 'source' / 'style_test'
 NAMES = ['House_Small_01', 'Sedan', 'Rock_Desert_01', 'Sedan_Wheel_Flat']
 
 
-def main():
-    out, mtl, seen = ['# StyleTest_All: ' + ', '.join(NAMES), 'mtllib StyleTest_All.mtl'], [], set()
+def merge(src=SRC, names=NAMES, out_name='StyleTest_All'):
+    out, mtl, seen = [f'# {out_name}: ' + ', '.join(names), f'mtllib {out_name}.mtl'], [], set()
     off = {'v': 0, 'vt': 0, 'vn': 0}
-    for name in NAMES:
+    for name in names:
         cnt = {'v': 0, 'vt': 0, 'vn': 0}
-        for line in (SRC / f'{name}.obj').read_text(encoding='utf-8').splitlines():
+        for line in (src / f'{name}.obj').read_text(encoding='utf-8').splitlines():
             tag = line.split(' ', 1)[0]
             if tag in cnt:
                 cnt[tag] += 1
@@ -43,7 +44,7 @@ def main():
         for key in off:
             off[key] += cnt[key]
         block = None
-        for line in (SRC / f'{name}.mtl').read_text(encoding='utf-8').splitlines():
+        for line in (src / f'{name}.mtl').read_text(encoding='utf-8').splitlines():
             if line.startswith('newmtl '):
                 block = line[7:] if line[7:] not in seen else None
                 if block:
@@ -52,10 +53,12 @@ def main():
                 mtl.append(line)
     # импортёр Studio ищет map_Kd рядом с .mtl и без файла даёт ошибку на каждой палитровой части;
     # с файлом он ещё и загружает палитру от выбранного Creator (группы)
-    shutil.copyfile(SRC.parents[1] / 'textures' / 'models' / 'T_Palette_Main.png', SRC / 'T_Palette_Main.png')
-    (SRC / 'StyleTest_All.obj').write_text('\n'.join(out) + '\n', encoding='utf-8')
-    (SRC / 'StyleTest_All.mtl').write_text('\n'.join(mtl) + '\n', encoding='utf-8')
-    print(SRC / 'StyleTest_All.obj', off)
+    shutil.copyfile(Path(__file__).resolve().parents[2] / 'textures' / 'models' / 'T_Palette_Main.png',
+                    src / 'T_Palette_Main.png')
+    (src / f'{out_name}.obj').write_text('\n'.join(out) + '\n', encoding='utf-8')
+    (src / f'{out_name}.mtl').write_text('\n'.join(mtl) + '\n', encoding='utf-8')
+    print(src / f'{out_name}.obj', off)
 
 
-main()
+if __name__ == '__main__':
+    merge()
