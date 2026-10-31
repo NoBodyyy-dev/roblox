@@ -11,7 +11,7 @@ local HttpService = game:GetService("HttpService")
 local AssetService = game:GetService("AssetService")
 
 local MANIFESTS = HttpService:JSONDecode([==[--@@MANIFESTS@@]==])
-local PALETTE_TEXTURE = "rbxassetid://108152632748455" -- T_Palette_Main, личный тестовый аккаунт (TEST_01)
+local PALETTE_TEXTURE = "rbxassetid://75482071682779" -- T_Palette_Main, группа «Грева нет» (867558223)
 local SPACING = 40
 
 local function v3(t: { number }): Vector3

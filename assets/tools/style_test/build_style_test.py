@@ -996,7 +996,7 @@ def build(asset, mats, coll):
                                for x in row]}
                       for c, s, r in asset['colliders']],
         'studio_props': asset['studio'], 'uv': report['uv'],
-        'palette_image_id_test': '108152632748455 (T_Palette_Main, личный тестовый аккаунт, TEST_01)',
+        'palette_image_id': '75482071682779 (T_Palette_Main, группа «Грева нет» 867558223)',
     }
     return objs, manifest
 

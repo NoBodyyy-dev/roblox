@@ -3,6 +3,7 @@
 python assets/tools/style_test/merge_obj.py
 Имена частей во всех ассетах разные, поэтому assemble_style_test.luau находит их и в общей модели.
 """
+import shutil
 from pathlib import Path
 
 SRC = Path(__file__).resolve().parents[2] / 'source' / 'style_test'
@@ -49,6 +50,9 @@ def main():
                     seen.add(block)
             if block:
                 mtl.append(line)
+    # импортёр Studio ищет map_Kd рядом с .mtl и без файла даёт ошибку на каждой палитровой части;
+    # с файлом он ещё и загружает палитру от выбранного Creator (группы)
+    shutil.copyfile(SRC.parents[1] / 'textures' / 'models' / 'T_Palette_Main.png', SRC / 'T_Palette_Main.png')
     (SRC / 'StyleTest_All.obj').write_text('\n'.join(out) + '\n', encoding='utf-8')
     (SRC / 'StyleTest_All.mtl').write_text('\n'.join(mtl) + '\n', encoding='utf-8')
     print(SRC / 'StyleTest_All.obj', off)
