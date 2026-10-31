@@ -1,0 +1,27 @@
+{
+ "note": "MeshId импорта StyleTest_All.obj от группы «Грева нет» (867558223), 2026-10-31; палитра T_Palette_Main группы: rbxassetid://75482071682779",
+ "meshes": {
+  "Sedan": {
+   "Wheel_FR": "rbxassetid://110479956153904",
+   "Hood": "rbxassetid://81936415268202",
+   "Wheel_RR": "rbxassetid://126201417512181",
+   "Wheel_RL": "rbxassetid://106235000538328",
+   "Trim": "rbxassetid://97745373904072",
+   "Body": "rbxassetid://123855615949851",
+   "Trunk": "rbxassetid://124247661900247",
+   "Wheel_FL": "rbxassetid://117170872057642",
+   "Glass": "rbxassetid://94691191644712",
+   "Steering": "rbxassetid://95247148471776"
+  },
+  "Rock_Desert_01": {
+   "Rock": "rbxassetid://74436518251007"
+  },
+  "Sedan_Wheel_Flat": {
+   "Wheel_Flat": "rbxassetid://94125861435164"
+  },
+  "House_Small_01": {
+   "Door_1": "rbxassetid://95104316601630",
+   "Shell": "rbxassetid://100384529495381"
+  }
+ }
+}

@@ -1,0 +1,49 @@
+{
+ "asset": "Rock_Desert_01",
+ "category": "Nature",
+ "primary_part": "Rock",
+ "coords": "Roblox studs; pivot модели = центр основания (0,0,0); перёд −Z; оси (x,y,z)_blender → (−x,z,y)",
+ "attributes": {
+  "AssetId": "Rock_Desert_01",
+  "Category": "Nature",
+  "Tris": 500
+ },
+ "tris_visible": 500,
+ "parts": [
+  {
+   "name": "Rock",
+   "tris": 500,
+   "size": [
+    15.0527,
+    5.9047,
+    12.0397
+   ],
+   "center": [
+    -0.1076,
+    2.9523,
+    0.6991
+   ],
+   "textured": true
+  }
+ ],
+ "model_pivot": [
+  -0.0,
+  0.0,
+  0.0
+ ],
+ "attachments": [],
+ "colliders": [],
+ "studio_props": {
+  "Rock": {
+   "CanCollide": true,
+   "CollisionFidelity": "Hull"
+  }
+ },
+ "uv": {
+  "Rock": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  }
+ },
+ "palette_image_id": "75482071682779 (T_Palette_Main, группа «Грева нет» 867558223)"
+}
