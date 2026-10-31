@@ -1,0 +1,34 @@
+{
+ "note": "MeshId импорта Lobby_All.obj от группы «Грева нет» (867558223), 2026-10-31",
+ "meshes": {
+  "Lobby_Door_Mountains": {
+   "Sign": "rbxassetid://78598044510146",
+   "Frame": "rbxassetid://96483509552467",
+   "Lock": "rbxassetid://113314388846658",
+   "Door": "rbxassetid://100738416542852"
+  },
+  "Lobby_Door_Sea": {
+   "Sign": "rbxassetid://89487804291126",
+   "Frame": "rbxassetid://128536762448605",
+   "Lock": "rbxassetid://113643681904079",
+   "Door": "rbxassetid://108523105508430"
+  },
+  "Lobby_Hub": {
+   "Tower": "rbxassetid://85631143515172",
+   "Props": "rbxassetid://133634251972290",
+   "Fire": "rbxassetid://88232622898319",
+   "Ground": "rbxassetid://132544385014104",
+   "Walls": "rbxassetid://118086277008367"
+  },
+  "Lobby_Door_City": {
+   "Sign": "rbxassetid://89219067522653",
+   "Frame": "rbxassetid://108092652250241",
+   "Lock": "rbxassetid://140091440509800",
+   "Door": "rbxassetid://85030670543124"
+  },
+  "Lobby_Backdrop": {
+   "Buildings": "rbxassetid://96445520602739",
+   "Skyline": "rbxassetid://83560139588378"
+  }
+ }
+}

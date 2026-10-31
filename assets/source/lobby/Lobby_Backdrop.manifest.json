@@ -1,0 +1,75 @@
+{
+ "asset": "Lobby_Backdrop",
+ "category": "Lobby",
+ "primary_part": "Buildings",
+ "coords": "Roblox studs; pivot модели = центр основания (0,0,0); перёд −Z; оси (x,y,z)_blender → (−x,z,y)",
+ "attributes": {
+  "AssetId": "Lobby_Backdrop",
+  "Category": "Lobby",
+  "Tris": 5271
+ },
+ "tris_visible": 5271,
+ "parts": [
+  {
+   "name": "Buildings",
+   "tris": 5031,
+   "size": [
+    150.6842,
+    57.4252,
+    138.2986
+   ],
+   "center": [
+    0.0146,
+    26.4874,
+    3.1493
+   ],
+   "textured": true
+  },
+  {
+   "name": "Skyline",
+   "tris": 240,
+   "size": [
+    303.9119,
+    73.4622,
+    277.7164
+   ],
+   "center": [
+    14.3098,
+    36.7311,
+    22.2767
+   ],
+   "textured": true
+  }
+ ],
+ "model_pivot": [
+  -0.0,
+  0.0,
+  0.0
+ ],
+ "attachments": [],
+ "colliders": [],
+ "studio_props": {
+  "*": {
+   "CanCollide": false,
+   "CanTouch": false,
+   "CanQuery": false,
+   "CastShadow": false
+  }
+ },
+ "uv": {
+  "Buildings": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  },
+  "Skyline": {
+   "outside_safe_rect": 0,
+   "min_px_to_cell_edge": 12.0
+  }
+ },
+ "palette_image_id": "75482071682779 (T_Palette_Main, группа «Грева нет» 867558223)",
+ "place_at": [
+  0.0,
+  0.0,
+  300.0
+ ]
+}
