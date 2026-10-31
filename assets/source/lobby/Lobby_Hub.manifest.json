@@ -1816,7 +1816,9 @@
  ],
  "studio_props": {
   "Ground": {
-   "CanCollide": false
+   "CanCollide": false,
+   "CanTouch": false,
+   "CanQuery": false
   },
   "Walls": {
    "CanCollide": false,

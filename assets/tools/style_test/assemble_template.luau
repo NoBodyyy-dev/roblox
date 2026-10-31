@@ -124,6 +124,7 @@ for i, asset in MANIFESTS do
 			part = c
 		else
 			local mp = (srcPart :: MeshPart):Clone()
+			mp.Name = p.name -- имя по контракту (в импорте может быть другое: src)
 			local want = v3(p.size)
 			local ratio = mp.Size.Magnitude / want.Magnitude
 			if math.abs(ratio - 1) > 0.02 then

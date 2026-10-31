@@ -309,7 +309,7 @@ def hub():
         'name': 'Lobby_Hub', 'category': 'Lobby', 'primary': 'Ground', 'parts': [g, w, pr, fire, tw, bd],
         'pivots': {}, 'attachments': {k: ('Ground', v) for k, v in att.items()}, 'colliders': colliders,
         'attributes': {}, 'studio': {
-            'Ground': {'CanCollide': False},  # пол — коллайдер-бокс
+            'Ground': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False},  # пол — картинка, ходят по коллайдеру-боксу
             'Walls': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False},
             'Props': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False},
             'Fire': {'CanCollide': False, 'CanTouch': False, 'CanQuery': False, 'Material': 'Neon'},
