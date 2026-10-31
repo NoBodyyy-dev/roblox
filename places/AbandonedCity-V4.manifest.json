@@ -1,0 +1,17 @@
+{
+  "version": "V4",
+  "date": "2026-10-31",
+  "archive": "AbandonedCity-V4.zip",
+  "entry": "AbandonedCity-V4.rbxlx",
+  "uncompressed_bytes": 295865286,
+  "archive_bytes": 12331254,
+  "place_sha256": "ec371ba8bab259c38a28394c7b3f549dde114e96c5278ac69fbaa36411c0913e",
+  "archive_sha256": "0783320d980fd1be6ce0f2154c324e15dd494ec454826d2c00220b00cf9db657",
+  "width_studs": 6400,
+  "length_studs": 15300,
+  "main_road_studs": 12600,
+  "buildings": 1641,
+  "vehicles": 108,
+  "parts": 228950,
+  "report": "../docs/city-map-v4/REPORT.md"
+}
